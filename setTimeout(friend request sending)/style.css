@@ -11,7 +11,7 @@ html,body{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: aquamarine ;
+    background-color: rgb(150, 245, 252) ;
     
     
 }
@@ -24,6 +24,7 @@ html,body{
     padding: 40px 20px;
     border-radius: 20%;
     gap: 15px;
+    width: 400px;
 
 }
 
@@ -35,10 +36,11 @@ button{
 
 }
 .photo{
-    width: 90px;
-    height: 90px;
-    background-image: url("https://images.unsplash.com/photo-1593349480506-8433634cdcbe?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    width: 150px;
+    height: 150px;
+    background-image: url("https://images.unsplash.com/photo-1734012755159-0606af9bc1c8?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHw1OHx8fGVufDB8fHx8fA%3D%3D");
     background-size: 100%;
-
+    border-radius: 50%;
+    object-fit: cover;
     
 }
